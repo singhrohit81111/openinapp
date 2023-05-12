@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGoogle } from "react-icons/fa";
 import { useAuth0 } from '@auth0/auth0-react';
+import './homestyle.scss';
 
 export default function Hom2() {
   const {loginWithRedirect}=useAuth0();

@@ -149,6 +149,13 @@
                         font-size: 9px;
                         height: 21px;
                     }
+
+                    button:hover {
+                        background-color: black;
+                        color: white;
+                        cursor: pointer;
+                        border-radius: 8px;
+                    }
                 }
 
                 @media screen and (max-width:480px) {
