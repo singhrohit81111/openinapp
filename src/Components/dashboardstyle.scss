@@ -1,0 +1,795 @@
+.dashboard {
+    display: flex;
+    background-color: whitesmoke;
+    max-height: 100vh;
+    min-height: 100vh;
+
+    .lds {
+        max-width: 30vw;
+        min-height: 96vh;
+        min-width: 18vw;
+        max-height: 96vh;
+
+        .lds1 {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 93vh;
+            background-color: black;
+            min-width: 16vw;
+            max-width: 16vw;
+            margin: 10px;
+            border-radius: 20px;
+
+            .lds11 {
+                .lds111 {
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-top: 38px;
+                }
+
+                .lds112 {
+                    margin-top: 31px;
+
+                    .rock {
+                        margin-bottom: 11px;
+
+                        span {
+                            margin-right: 5px;
+                        }
+                    }
+
+                    .rock:hover {
+                        font-weight: 700;
+                        cursor: pointer;
+                    }
+                }
+
+                @media screen and (max-width:480px) {
+                    .lds111 {
+                        font-size: 19px;
+                        font-weight: 700;
+                        margin-top: 47px;
+                    }
+
+                    .lds112 {
+                        .rock {
+                            span {
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    .lds111 {
+                        font-size: 20px;
+                    }
+
+                    .lds112 {
+                        .rock {
+                            span {
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .lds12 {
+                color: gray;
+                color: gray;
+                margin-top: 247px;
+
+                .lds121 {
+                    margin-bottom: 7px;
+                    font-size: 11px;
+                }
+
+                @media screen and (max-width:480px) {
+                    margin-top: 141px;
+
+                    .lds121 {
+                        font-size: 8px;
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    margin-top: 141px;
+
+                    .lds121 {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .rds0 {
+        min-width: 80vw;
+        max-width: 80vw;
+
+        .rds {
+            display: flex;
+            min-height: 96vh;
+            flex-direction: column;
+            margin: 10px 29px 10px 10px;
+            min-width: 79w;
+            max-width: 80vw;
+
+            .rds1 {
+                display: flex;
+                justify-content: space-between;
+                min-width: 79vw;
+                max-width: 80vw;
+
+                .rds11 {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                .rds12 {
+                    display: flex;
+                    min-width: 18vw;
+                    justify-content: space-between;
+
+                    .rip {
+                        background-color: white;
+                        border-radius: 9px;
+
+                        input {
+                            border: none;
+                            margin-left: 4px;
+                            margin-bottom: 4px;
+                            outline: none;
+                        }
+                    }
+
+                    button {
+                        font-size: 9px;
+                        height: 21px;
+                    }
+                }
+
+                @media screen and (max-width:480px) {
+                    min-width: 74vw;
+                    max-width: 74vw;
+
+                    .rds11 {
+                        font-size: 13px;
+                    }
+
+                    .rds12 {
+                        min-width: 30vw;
+
+                        .rip {
+                            input {
+                                width: 51px;
+                            }
+
+                            span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    min-width: 74vw;
+                    max-width: 74vw;
+
+                    .rds11 {
+                        font-size: 13px;
+                    }
+
+                    .rds12 {
+                        min-width: 30vw;
+
+                        .rip {
+                            input {
+                                width: 51px;
+                            }
+
+                            span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rds2 {
+                display: flex;
+                margin-top: 12px;
+
+                .da1 {
+                    display: flex;
+                    max-width: 80vw;
+                    min-width: 79vw;
+                    justify-content: space-between;
+
+                    .da11 {
+                        display: flex;
+                        background-color: #DDEFE0;
+                        min-width: 18vw;
+                        justify-content: space-around;
+                        min-height: 15vh;
+                        border-radius: 13px;
+
+                        .da111 {
+                            display: flex;
+                            flex-direction: column;
+                            max-height: 8vh;
+                            margin-top: 26px;
+                            text-align: left;
+
+                            .da1111 {
+                                font-size: 13px;
+                            }
+
+                            .da1112 {
+                                font-size: 22px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .da112 {
+                            margin-top: 16px;
+                        }
+                    }
+
+                    .da12 {
+                        display: flex;
+                        background-color: #F4ECDD;
+                        min-width: 18vw;
+                        justify-content: space-around;
+                        min-height: 15vh;
+                        border-radius: 13px;
+
+                        .da111 {
+                            display: flex;
+                            flex-direction: column;
+                            max-height: 8vh;
+                            margin-top: 26px;
+                            text-align: left;
+
+                            .da1111 {
+                                font-size: 13px;
+                            }
+
+                            .da1112 {
+                                font-size: 22px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .da112 {
+                            margin-top: 16px;
+                        }
+                    }
+
+                    .da13 {
+                        display: flex;
+                        background-color: #EFDADA;
+                        min-width: 18vw;
+                        justify-content: space-around;
+                        min-height: 15vh;
+                        border-radius: 13px;
+
+                        .da111 {
+                            display: flex;
+                            flex-direction: column;
+                            max-height: 8vh;
+                            margin-top: 26px;
+                            text-align: left;
+
+                            .da1111 {
+                                font-size: 13px;
+                            }
+
+                            .da1112 {
+                                font-size: 22px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .da112 {
+                            margin-top: 16px;
+                        }
+                    }
+
+                    .da14 {
+                        display: flex;
+                        background-color: #DEE0EF;
+                        min-width: 18vw;
+                        justify-content: space-around;
+                        min-height: 15vh;
+                        border-radius: 13px;
+
+                        .da111 {
+                            display: flex;
+                            flex-direction: column;
+                            max-height: 8vh;
+                            margin-top: 26px;
+                            text-align: left;
+
+                            .da1111 {
+                                font-size: 13px;
+                            }
+
+                            .da1112 {
+                                font-size: 22px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .da112 {
+                            margin-top: 16px;
+                        }
+                    }
+                }
+
+                @media screen and (max-width:480px) {
+                    margin-top: 6px;
+
+                    .da1 {
+                        max-width: 74vw;
+                        min-width: 74vw;
+
+                        .da11 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+
+                        .da12 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+
+                        .da13 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+
+                        .da14 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    margin-top: 6px;
+
+                    .da1 {
+                        max-width: 74vw;
+                        min-width: 74vw;
+
+                        .da11 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+
+                        .da12 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+
+                        .da13 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+
+                        .da14 {
+                            .da111 {
+                                .da1111 {
+                                    font-size: 6px;
+                                }
+
+                                .da1112 {
+                                    font-size: 8px;
+                                }
+                            }
+
+                            .da112 {
+                                font-size: 8px;
+
+                                .cat {
+                                    height: 2vh;
+                                    width: 2vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rds3 {
+                max-width: 79vw;
+                max-height: 33vh;
+                min-height: 33vh;
+                min-width: 79vw;
+                background-color: white;
+                margin-top: 12px;
+                border-radius: 13px;
+
+                .rds31 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    text-align: left;
+                    margin-left: 9px;
+
+                    .rds311 {
+                        font-weight: 700;
+                    }
+
+                    .rds312 {
+                        select {
+                            border: none;
+                            background-color: white;
+                        }
+                    }
+                }
+
+                .rds32 {
+                    min-width: 73vw;
+                    max-width: 79vw;
+                    height: 99px;
+                    width: 1027px;
+                    min-height: 23vh;
+                    max-height: 24vh;
+                    margin-left: 7px;
+                }
+
+                @media screen and (max-width:480px) {
+                    min-width: 74vw;
+                    max-width: 74vw;
+                }
+
+                @media screen and (max-width:768px) {
+                    min-width: 74vw;
+                    max-width: 74vw;
+                }
+
+            }
+
+            .rds4 {
+                display: flex;
+                justify-content: space-between;
+                min-width: 79vw;
+                margin-top: 12px;
+
+                .rds41 {
+                    background-color: white;
+                    max-height: 38vh;
+                    min-height: 35vh;
+                    min-width: 38vw;
+                    border-radius: 13px;
+
+                    .rds411 {
+                        margin: 11px;
+
+                        .rds4111 {
+                            display: flex;
+                            justify-content: space-between;
+
+                            .rds41111 {}
+
+                            .rds41112 {
+
+                                select {
+                                    border: none;
+                                    background-color: white;
+                                }
+                            }
+                        }
+
+                        .rds4112 {
+                            max-height: 148px;
+
+                            .baa {
+                                height: 148px;
+                                width: 148px;
+                            }
+                        }
+                    }
+                }
+
+                .rds42 {
+                    max-height: 35vh;
+                    min-height: 35vh;
+                    min-width: 38vw;
+                    background-color: white;
+                    border-radius: 13px;
+
+                    .rds421 {
+                        margin: 11px;
+
+                        .rds4211 {
+                            display: flex;
+                            justify-content: space-between;
+
+                            .rds42111 {
+                                font-size: 18px;
+                                font-weight: 700;
+                            }
+
+                            .rds42112 {
+                                font-size: 10px;
+                            }
+
+                        }
+
+                        .rds4212 {
+                            text-align: left;
+
+                            .kb1 {
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+
+                            .kb2 {
+                                font-size: 10px;
+                                color: gray;
+                            }
+
+                            .kb3 {
+                                font-size: 10px;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+
+                @media screen and (max-width:480px) {
+                    min-width: 74vw;
+
+                    .rds41 {
+                        min-width: 29vw;
+                        max-width: 29vw;
+                        max-height: 35vh;
+
+                        .rds411 {
+                            .rds4111 {
+                                .rds41111 {
+                                    font-size: 10px;
+                                    font-weight: 700;
+                                }
+
+                                .rds41112 {
+                                    select {
+                                        font-size: 7px;
+                                    }
+                                }
+                            }
+
+                            .rds4112 {
+                                max-width: 148px;
+                                min-height: 148px;
+
+                                .baa {
+                                    height: 104px;
+                                    width: 104px;
+                                }
+                            }
+                        }
+                    }
+
+                    .rds42 {
+                        max-width: 41vw;
+                        min-width: 35vw;
+
+                        .rds421 {
+                            .rds4211 {
+                                .rds42111 {
+                                    font-size: 12px;
+                                }
+
+                                .rds42112 {
+                                    font-size: 7px;
+                                }
+                            }
+
+                            .rds4212 {
+                                .rds42121 {
+                                    .kb1 {
+                                        font-size: 10px;
+                                    }
+
+                                    .kb2 {
+                                        font-size: 10px;
+                                    }
+
+                                    .kb3 {
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    min-width: 74vw;
+
+                    .rds41 {
+                        min-width: 29vw;
+                        max-width: 29vw;
+                        max-height: 35vh;
+
+                        .rds411 {
+                            .rds4111 {
+                                .rds41111 {
+                                    font-size: 10px;
+                                    font-weight: 700;
+                                }
+
+                                .rds41112 {
+                                    select {
+                                        font-size: 7px;
+                                    }
+                                }
+                            }
+
+                            .rds4112 {
+                                max-width: 148px;
+                                min-height: 148px;
+
+                                .baa {
+                                    height: 104px;
+                                    width: 104px;
+                                }
+                            }
+                        }
+                    }
+
+                    .rds42 {
+                        max-width: 41vw;
+                        min-width: 35vw;
+
+                        .rds421 {
+                            .rds4211 {
+                                .rds42111 {
+                                    font-size: 12px;
+                                }
+
+                                .rds42112 {
+                                    font-size: 7px;
+                                }
+                            }
+
+                            .rds4212 {
+                                .rds42121 {
+                                    .kb1 {
+                                        font-size: 10px;
+                                    }
+
+                                    .kb2 {
+                                        font-size: 10px;
+                                    }
+
+                                    .kb3 {
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
